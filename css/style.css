@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 }
 body{
-	
+	background-color: #d1f6fe;
 }
 /*seccion 1 pantalla-inicio*/
 .pantalla-inicio{
@@ -126,22 +126,27 @@ html, body {
             transform: rotate(450deg);
   }
 }
-/*inicio seccion 2 vista-principal*/
-.vista-principal{
-	background-color: #2B2B2B;
-	height: 100vh;
-	width: 100%;
-}
 
+.logo-go-fun{
+  width: 14em;
+  height: auto;
+  margin-left: 34em;
+  margin-top: 22em;
+}
 /*Fin css del loader*/
+/*inicio seccion 2 vista-principal*/
 /*cabezera*/
+.logotipo{
+  width: 14em;
+  height: auto;
+}
 .menu nav{
 	padding-top: 2em;
 }
 
 header .encabezado{
 	border: none;
-	background-color: #fff;
+	background-color: #000;
   width: 100%;
 	height: 7em;
 }
@@ -151,14 +156,71 @@ header .encabezado{
   margin: 0;
 }
 /*fin cabezera*/
+/*imágenes principales*/
+.elige{ /*h1 titulo elige tus intereses*/
+  font-size: 2.4em;
+  color: #fff;
+  margin-top: 1em;
+}
+.espacio{
+  padding-top: 2em; /*padding de las imágenes principales*/
+  position: relative;
+}
+.espacio:hover{
+  filter: brightness(0.6);
+  cursor: pointer;
+}
+.cultura{ /*clase para el texto de las imágenes*/
+  position: absolute;
+  color:#fff;
+  font-size: 2.9em;
+  display: block;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+/*fin imágenes principales*/
+/*Footer*/
+footer{
+  background-color: #333333;
+  width:100%;
+  height:300px;
+  position: absolute;
+}
+/*Iconos*/
+.redes-sociales{
+  text-align: center;
+}    
+.redes-sociales .icons h3{
+  color: #F7B617;
+  padding: 30px;
+  text-transform: uppercase;
+}
+.redes-sociales a{
+  float: left;
+    width: 100px;
 
+}
+.icons{
+  display: inline-block;
+  margin:30px;
+}
 
+.redes-sociales a i{
+    font-size: 40px;
+    color: #FFF;
+    padding: 20px;
+}
 
-
-
-
-
-
-
-
+.redes-sociales a i:hover{
+  color: #F7B617 ;
+}
+.copyright{
+    color: #FFF;
+    font-size: 15px;
+}
+/*fin footer*/
 
