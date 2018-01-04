@@ -142,6 +142,21 @@ html, body {
 /*Fin css del loader*/
 /*inicio seccion 2 vista-principal*/
 /*cabezera*/
+.row  {
+  margin-left: 0;
+  margin-right: 0;
+}
+.menu nav{
+  padding-top: 2em;
+}
+.navbar-default{
+  border: none;
+  background-color: #FFF;
+  height: 7em;
+}
+.navbar-toggle{
+  float:left;
+}
 .logotipo{
   width: 14em;
   height: auto;
