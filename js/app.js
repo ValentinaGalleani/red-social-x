@@ -14,10 +14,10 @@ console.log(data);
 * y guardo en cada una de ellas los div vacíos del html donde irá
 * toda la información sacada de la data
 */
-var musica = $('.musica');
-var cine = $('.cine');
-var diseño = $('.diseño');
-var teatro =$('.teatro');
-var danza = $('.danza');
-var literatura = $('.literatura');
+var musica = $('.Música');
+var cine = $('.Cine');
+var diseño = $('.Diseño');
+var teatro =$('.Teatro');
+var danza = $('.Danza');
+var literatura = $('.Literatura');
 var allCategories = $('.all-categories');

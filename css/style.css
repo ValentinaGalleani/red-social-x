@@ -8,6 +8,8 @@
 }
 body{
 	background-color: #d1f6fe;
+  margin-right: auto;
+  margin-left: auto;
 }
 /*seccion 1 pantalla-inicio*/
 .pantalla-inicio{
@@ -175,6 +177,7 @@ header .encabezado{
 .total {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 /*fin cabezera*/
@@ -255,6 +258,11 @@ footer{
   object-fit: cover;
 }
 
-
+#photoMusica{
+  width: 100%;
+  background-size: 100%;
+  object-fit: cover;
+  height: 25em;
+}
 
 
