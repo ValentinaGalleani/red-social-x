@@ -299,11 +299,50 @@ footer{
   height: 25em;
 }
 
-.publicacion {
+.publicacion{
   background-color: #fff;
   height: 38em;
 }
 
+#etiqueta{
+  font-size: 1.5em;
+  margin-top: 2em;
+  display: inline-block;
+  color: #7ac5f3;
+}
+
+#fredy{
+  width: 8em;
+  height: 8em;
+  margin-top: 1.6em;
+}
+
+#titleMusic{
+  color: #000;
+  font-size: 1.5em;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+#parque{
+  width: 15em;
+  margin-top: 2.5em;
+  margin-left: 3em;
+}
+
+#info{
+  font-size: 1.1em;
+  margin-top: 8em;
+}
+
+.map{
+  margin-top: 2em;
+}
+
+.opciones {
+  margin-top: 3em;
+  margin-left: 3em;
+}
 /*fin estilo del muro html */
 
 /*Segundo HTML*/

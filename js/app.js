@@ -7,6 +7,7 @@ $(document).ready(function(){
 	}, 1000);
 });
 
+
 $('#acceder').click(function () {
   window.location = 'index.html';
   return false;
@@ -35,6 +36,9 @@ $('.espacio').click(function () {
 
 
 
+=======
+	
+>>>>>>> actualizacion jquery y muro.html
 /**
 console.log(data);
 
