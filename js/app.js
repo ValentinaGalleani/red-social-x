@@ -7,13 +7,38 @@ $(document).ready(function(){
 	}, 1000);
 });
 
+$('#acceder').click(function () {
+  window.location = 'index.html';
+  return false;
+})
+
+$('#ingresar').click(function () {
+  window.location = 'principal.html';
+  return false;
+})
+
+$('.espacio').click(function () {
+  window.location = 'muro.html';
+  return false;
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
 console.log(data);
 
 
-* Creo todas las variables que voy a utilizar
-* y guardo en cada una de ellas los div vacíos del html donde irá
-* toda la información sacada de la data
 
 var musica = $('.Música');
 var cine = $('.Cine');

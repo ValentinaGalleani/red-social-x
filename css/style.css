@@ -171,7 +171,7 @@ html, body {
 .logotipo{
   width: 14em;
   height: auto;
-  margin-top: 1.9em;
+  margin-top: -0.1em;
 }
 
 .menu nav{
@@ -212,7 +212,7 @@ header .encabezado{
 .cultura{ /*clase para el texto de las imágenes*/
   position: absolute;
   color:#fff;
-  font-size: 2.9em;
+  font-size: 2.3em;
   display: block;
   position: absolute;
   bottom: -16px;
@@ -224,18 +224,19 @@ header .encabezado{
 /*fin imágenes principales*/
 /*Footer*/
 footer{
-  background-color: #333333;
+  background-color: #000;
   width:100%;
   height:300px;
   position: absolute;
 }
 
-#photoPrincipal {
+#photoPrincipal{
   width: 100%;
-  height: 15em;
+  height: 7em;
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
+  margin-top: 7em;
 }
 
 /*Iconos*/
@@ -274,6 +275,7 @@ footer{
   font-size: 15px;
 }
 
+
 #photoPrincipal {
   width: 100%;
   height: 15em;
@@ -311,6 +313,11 @@ footer{
   width: 100%;
   background-size: cover;
 }
+.logotipo-dos{
+  width: 14em;
+  height: auto;
+  margin-top: 1.9em;
+}
 
 .nav-cabezera{
   height: 7em; 
@@ -318,8 +325,17 @@ footer{
 
 .collapse{
   margin-top: 1.7em;
+
 }
 
+.all-li{
+  margin-top: -1.4em;
+  font-size: 1.4em;
+}
+.cuenta{
+  color: #fff;
+  margin-top: 3em; 
+}
 
 
 
