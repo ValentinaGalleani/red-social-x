@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<title>muro</title>
 </head>
 <body>
@@ -13,16 +14,23 @@
 			<div class="container-fluid">
 				<div class="row menu">
 					<div class="total col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<nav class="encabezado">
-								<div class="container-fluid">
+						<nav class="encabezado navbar navbar-default navbar-fixed-top">
+							<div class="container-fluid">
 									<div class="navbar-header">
+										<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
 										<img class="img-responsive logotipo" src="images/go fun.png" alt="">
 									</div>
-									<ul class="nav navbar-nav navbar-right">
-										<li><a href="#">Panoramas</a></li>
-										<li><a href="#">Regístrate</a></li>
-										<li><a href="#">Inicia Sesión</a></li>
-									</ul>
+									<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+										<ul class="nav navbar-nav navbar-right">
+											<li><a href="#">Panoramas</a></li>
+											<li><a href="#">Regístrate</a></li>
+											<li><a href="#">Inicia sesión</a></li>
+										</ul>
 								</div>
 							</div>
 						</nav>
@@ -33,7 +41,7 @@
 <!-- fin header -->
 <!-- foto categoria musica -->
 	<section>
-		<div class="container-fluid">
+		<div class="dos container-fluid">
 			<div class="row">
 				<div class="total col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<img id= "photoMusica" src="images/musica5.jpg" class="img-responsive" alt="Responsive image">
@@ -46,13 +54,41 @@
 	<section>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="total col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class=" col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					<div class="publicacion">
+						
+					</div>
+				</div>
+				<div class=" col-xs-3 col-sm-3 col-md-3 col-lg-3">
 					
 				</div>
 			</div>
 		</div>
 	</section>
 <!-- fin muro -->
+<!-- footer -->
+<footer>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+			  <div class="redes-sociales">
+			    <!-- Iconos -->    
+				  <div class="icons"> 
+				    <h3>Redes Sociales</h3>
+				    <a href="" id="border1"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				    <a href="" id="border2"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+				    <a href="" id="border3"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				    <a href="" id="border4"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				    <a  href="" id="border5"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				  </div>
+			    <div class="copyright"><p>Copyright © Your Website 2017</p>
+			    </div>
+		  	</div>
+			</div>
+		</div>
+	</div>	
+</footer>
+<!-- fin del footer -->
 	<script src="js/jquery.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/bootstrap.min.js"></script>

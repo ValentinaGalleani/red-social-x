@@ -28,38 +28,38 @@ html, body {
 
 .spinner {
   -webkit-animation: rotator 1.4s linear infinite;
-          animation: rotator 1.4s linear infinite;
+  animation: rotator 1.4s linear infinite;
 }
 
 @-webkit-keyframes rotator {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(270deg);
-            transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
   }
 }
 
 @keyframes rotator {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(270deg);
-            transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
   }
 }
 .path {
   stroke-dasharray: 187;
   stroke-dashoffset: 0;
   -webkit-transform-origin: center;
-      -ms-transform-origin: center;
-          transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
   -webkit-animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
-          animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
+  animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
 }
 
 @-webkit-keyframes colors {
@@ -101,30 +101,34 @@ html, body {
   0% {
     stroke-dashoffset: 187;
   }
+
   50% {
-    stroke-dashoffset: 46.75;
-    -webkit-transform: rotate(135deg);
-            transform: rotate(135deg);
+  stroke-dashoffset: 46.75;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
   }
+
   100% {
-    stroke-dashoffset: 187;
-    -webkit-transform: rotate(450deg);
-            transform: rotate(450deg);
+  stroke-dashoffset: 187;
+  -webkit-transform: rotate(450deg);
+  transform: rotate(450deg);
   }
 }
 @keyframes dash {
   0% {
     stroke-dashoffset: 187;
   }
+
   50% {
-    stroke-dashoffset: 46.75;
-    -webkit-transform: rotate(135deg);
-            transform: rotate(135deg);
+  stroke-dashoffset: 46.75;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
   }
+
   100% {
-    stroke-dashoffset: 187;
-    -webkit-transform: rotate(450deg);
-            transform: rotate(450deg);
+  stroke-dashoffset: 187;
+  -webkit-transform: rotate(450deg);
+  transform: rotate(450deg);
   }
 }
 
@@ -148,23 +152,28 @@ html, body {
   margin-left: 0;
   margin-right: 0;
 }
+
 .menu nav{
   padding-top: 2em;
 }
+
 .navbar-default{
   border: none;
   background-color: #FFF;
   height: 7em;
 }
+
 .navbar-toggle {
   float: left;
   margin-top: 2.2em;
 }
+
 .logotipo{
   width: 14em;
   height: auto;
   margin-top: 1.9em;
 }
+
 .menu nav{
 	padding-top: 2em;
 }
@@ -241,28 +250,28 @@ footer{
 }
 .redes-sociales a{
   float: left;
-    width: 100px;
+  width: 100px;
 
 }
+
 .icons{
   display: inline-block;
   margin:30px;
 }
 
 .redes-sociales a i{
-    font-size: 40px;
-    color: #FFF;
-    padding: 20px;
+  font-size: 40px;
+  color: #FFF;
+  padding: 20px;
 }
-
 
 .redes-sociales a i:hover{
   color: #F7B617 ;
 }
 
 .copyright{
-    color: #FFF;
-    font-size: 15px;
+  color: #FFF;
+  font-size: 15px;
 }
 
 #photoPrincipal {
@@ -273,11 +282,13 @@ footer{
   object-fit: cover;
   margin-top: 7em;
 }
+
 .dos{
   padding: 0;
 }
 /*fin footer*/
 
+/*inicio estilo del muro html */
 
 #photoMusica{
   width: 100%;
@@ -285,6 +296,13 @@ footer{
   object-fit: cover;
   height: 25em;
 }
+
+.publicacion {
+  background-color: #fff;
+  height: 38em;
+}
+
+/*fin estilo del muro html */
 
 /*Segundo HTML*/
 #image-body{ /*body*/
@@ -301,6 +319,7 @@ footer{
 .collapse{
   margin-top: 1.7em;
 }
+
 
 
 
