@@ -1,3 +1,4 @@
+/*
 var data = [
     {   
         "foto": "images/musica4.jpg",
@@ -170,3 +171,4 @@ var data = [
     };
 
 ]
+*/
