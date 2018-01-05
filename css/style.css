@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 }
 body{
-	background-color: #d1f6fe;
+	background-color: #7ac5f3;
   margin-right: auto;
   margin-left: auto;
 }
@@ -156,12 +156,14 @@ html, body {
   background-color: #FFF;
   height: 7em;
 }
-.navbar-toggle{
-  float:left;
+.navbar-toggle {
+  float: left;
+  margin-top: 2.2em;
 }
 .logotipo{
   width: 14em;
   height: auto;
+  margin-top: 1.9em;
 }
 .menu nav{
 	padding-top: 2em;
@@ -269,6 +271,7 @@ footer{
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
+  margin-top: 7em;
 }
 .dos{
   padding: 0;
@@ -294,5 +297,11 @@ footer{
 .nav-cabezera{
   height: 7em; 
 }
+
+.collapse{
+  margin-top: 1.7em;
+}
+
+
 
 
